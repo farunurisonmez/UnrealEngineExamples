@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.25",
+	"EngineAssociation": "{60C6511A-4E51-41CF-4123-F285DFA8530C}",
 	"Category": "Augmented Reality",
 	"Description": "ARCore and ARKit SDK Sample Content",
 	"Modules": [
 		{
 			"Name": "ARUE4Examples",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
